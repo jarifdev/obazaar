@@ -1,0 +1,30 @@
+// src/app/(payload)/custom.scss
+
+/* 
+  Custom styles for specific admin pages to avoid conflicts 
+  with PayloadCMS's own styling. Minimal styling to avoid breaking Payload.
+*/
+
+/* Keyframes for animations */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dark mode support within Payload admin */
+[data-theme="dark"] .custom-admin-page {
+  color-scheme: dark;
+}
+
+/* Keyframes for animations */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dark mode support within Payload admin */
+[data-theme="dark"] .custom-admin-page {
+  color-scheme: dark;
+}
