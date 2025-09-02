@@ -35,7 +35,6 @@ export default buildConfig({
     },
     components: {
       beforeNavLinks: ["@/components/stripe-verify#StripeVerify"],
-  header: ["@/components/admin/custom-header#CustomHeader"],
     },
   },
   collections: [
